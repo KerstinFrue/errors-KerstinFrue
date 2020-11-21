@@ -31,13 +31,18 @@ mean.Mo<-mean(num_Mo)
 
 median.r<-median(num_r)
 median.Mo<-median(num_Mo)
+print(median.r)
+print(median.Mo)
 
 sd.r<-sd(num_r)
 sd.Mo<-sd(num_Mo)
+print(sd.r)
+print(sd.Mo)
 
 MAD.r<-mad(num_r)
 MAD.Mo<-mad(num_Mo)
-
+print(MAD.r)
+print(MAD.Mo)
 
 
 # 3 b) --------------------------------------------------------------------
