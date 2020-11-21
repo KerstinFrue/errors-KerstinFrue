@@ -47,3 +47,8 @@ print(MAD.Mo)
 
 # 3 b) --------------------------------------------------------------------
 
+x11()
+par(mfrow=c(1,2))
+plot(ex3$r.in.m, xlab="measurement n", ylab=("r in m"), col = "orange", main="Estimated fault radius ")
+plot(ex3$Mo.in.Nm, xlab="measurement n", ylab=("Mo in Nm"), col="blue", main="Seismic moment [earthquake magnitude]")
+?plot
